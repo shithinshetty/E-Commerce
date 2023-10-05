@@ -5,7 +5,7 @@ import logo from "./images.png";
 
 const Pagenotfound = () => {
   return (
-    <Layout>
+    <Layout title={"Page Not Found"}>
       <div className="pnf">
         <h1 className="pnf-title">404</h1>
         <img src={logo}></img>
