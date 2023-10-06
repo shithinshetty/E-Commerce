@@ -31,7 +31,7 @@ HOW TO RUN
 
 # Login
 
-[Screenshot (29)](https://github.com/shithinshetty/E-Commerce/assets/92690951/06bb2fd4-509e-4bb8-aca4-8d6778b007f6)
+![Screenshot (29)](https://github.com/shithinshetty/E-Commerce/assets/92690951/06bb2fd4-509e-4bb8-aca4-8d6778b007f6)
 
 ![Screenshot (30)](https://github.com/shithinshetty/E-Commerce/assets/92690951/506f0070-30da-4341-b830-aa650bc0f4cd)
 
