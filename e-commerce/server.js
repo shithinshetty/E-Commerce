@@ -6,6 +6,8 @@ import morgan from "morgan";
 import authRoutes from "./routes/auth.js";
 import cors from "cors";
 import categoryRoute from "./routes/categoryRoute.js";
+import productRoute from "./routes/productRoute.js";
+
 dotenv.config();
 
 connectDb();
@@ -14,6 +16,7 @@ app.use(morgan("dev"));
 app.use(cors());
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/category", categoryRoute);
+app.use("/api/v1/product", productRoute);
 app.get("/", (req, res) => {
   res.send({
     message: "Welcome to E-commerce21",
