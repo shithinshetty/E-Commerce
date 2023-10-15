@@ -5,6 +5,9 @@ import {
   deleteproductController,
   getSingleProductController,
   getproductController,
+  productCountController,
+  productFilterController,
+  productListController,
   productPhotoController,
   updateProductController,
 } from "../controllers/productController.js";
@@ -32,4 +35,11 @@ router.put(
   formidable(),
   updateProductController
 );
+
+router.post("/product-filters", productFilterController);
+
+router.get("/product-count", productCountController);
+
+router.get("/product-list/:page", productListController);
+
 export default router;
